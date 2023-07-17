@@ -1,0 +1,133 @@
+body {
+width:900px;
+    margin-left: auto;
+   margin-right: auto;
+    background-color:#c76f65;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: grid;
+
+    
+}
+
+
+header {
+    width:900px;
+    margin-left: auto;
+     margin-right: auto;
+    background-color:#e6945a;
+    padding: inherit;
+    text-align: center;
+    grid-column: 1/2; grid-row: 1/2;
+    
+
+    border: solid;
+    border-color: rebeccapurple;
+
+}
+
+
+main {
+    width:900px;
+    margin-left: auto;
+  margin-right: auto;
+    background-color:#ebe6e1;
+    padding: inherit;
+     display: grid;
+    align-content: center;
+
+
+  
+}
+
+nav {
+    width:900px;
+    margin-left: auto;
+  margin-right: auto;
+    background-color:chocolate;
+      padding: 5px;
+      grid-column: 1/2; grid-row: 2/4;
+}
+
+footer {
+    width:900px;
+    margin-left: auto;
+   margin-right: auto;
+    background-color:#b07f1c;
+    padding: inherit;
+    text-align: center;
+       grid-column: 1/2; grid-row: 4/4;
+     border: solid;
+      border-color: rebeccapurple;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+}
+
+
+h1 { 
+    font-family:'Caveat', Handwriting;   
+   
+ }
+
+h2 { 
+  font-family:'Caveat', Handwriting;    
+}
+
+h3 { 
+ font-family:'Caveat', Handwriting;   
+}
+h5 { 
+     font-family:'Caveat', Handwriting;   
+   
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+      font-family: 'Arimo', sans-serif;
+}
+
+
+li {
+  float: left;
+
+  margin: 10px;
+  padding: 10px;
+     
+     font-family:'Arimo', sans-serif; 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+     font-family: 'Arimo', sans-serif;
+
+}
+
+li a:hover {
+  background-color:teal;
+}
+
+        @font-face {
+font-family : 'Arimo';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/arimo/v28/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrE.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Caveat';
+font-style : normal;
+font-weight : 400;
+src : url(https://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZA.ttf) format('truetype');
+}
+   
